@@ -1,0 +1,107 @@
+// PLACEHOLDER DATA - Replace with your own property data
+export const properties = [
+  {
+    id: 1,
+    title: 'Luxury Family Home in Walkerville',
+    location: 'Walkerville, Windsor, ON',
+    price: 749000,
+    bedrooms: 4,
+    bathrooms: 3,
+    sqft: 2800,
+    type: 'house',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com' // Replace with actual listing URL
+  },
+  {
+    id: 2,
+    title: 'Modern Downtown Condo',
+    location: 'Downtown Windsor, ON',
+    price: 425000,
+    bedrooms: 2,
+    bathrooms: 2,
+    sqft: 1400,
+    type: 'condo',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 3,
+    title: 'Spacious Riverside Townhouse',
+    location: 'Riverside, Windsor, ON',
+    price: 535000,
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 1950,
+    type: 'townhouse',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 4,
+    title: 'Charming Bungalow in South Windsor',
+    location: 'South Windsor, ON',
+    price: 489000,
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 1650,
+    type: 'house',
+    status: 'Sold',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 5,
+    title: 'Executive Home with Pool',
+    location: 'Forest Glade, Windsor, ON',
+    price: 895000,
+    bedrooms: 5,
+    bathrooms: 4,
+    sqft: 3500,
+    type: 'house',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 6,
+    title: 'Cozy Starter Home',
+    location: 'East Windsor, ON',
+    price: 325000,
+    bedrooms: 2,
+    bathrooms: 1,
+    sqft: 1100,
+    type: 'house',
+    status: 'Pending',
+    image: 'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 7,
+    title: 'Waterfront Luxury Condo',
+    location: 'Riverfront, Windsor, ON',
+    price: 650000,
+    bedrooms: 3,
+    bathrooms: 2,
+    sqft: 2100,
+    type: 'condo',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  },
+  {
+    id: 8,
+    title: 'Renovated Victorian Home',
+    location: 'Walkerville, Windsor, ON',
+    price: 625000,
+    bedrooms: 4,
+    bathrooms: 3,
+    sqft: 2400,
+    type: 'house',
+    status: 'For Sale',
+    image: 'https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800&q=80',
+    detailsLink: 'https://www.homelifegoldstar.com'
+  }
+];
