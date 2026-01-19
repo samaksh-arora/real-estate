@@ -53,9 +53,6 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <Link to="/listings" className="btn-primary">
-            View Listings
-          </Link>
           <Link to="/contact" className="btn-secondary">
             Contact Me
           </Link>
