@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import { FaHome, FaHandshake, FaChartLine, FaStar } from 'react-icons/fa';
