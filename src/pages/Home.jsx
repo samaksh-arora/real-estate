@@ -2,8 +2,6 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import PropertyCard from '../components/PropertyCard';
-import { properties } from '../data/properties';
 import { FaHome, FaHandshake, FaChartLine, FaStar } from 'react-icons/fa';
 import './Home.css';
 
@@ -11,7 +9,6 @@ const Home = () => {
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.8, 1]);
 
-  const featuredProperties = properties.filter(p => p.status === 'For Sale').slice(0, 3);
 
   const services = [
     {
