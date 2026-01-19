@@ -38,7 +38,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80"
+                src="nitin_headshot.jpg"
                 alt="Nitin Arora - Real Estate Agent"
               />
             </motion.div>
@@ -128,10 +128,6 @@ const About = () => {
               {
                 title: 'Expertise',
                 description: 'Staying current with market trends and providing informed guidance.'
-              },
-              {
-                title: 'Dedication',
-                description: 'Committed to achieving the best possible outcomes for every client.'
               }
             ].map((value, index) => (
               <motion.div

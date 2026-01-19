@@ -69,43 +69,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Properties Section */}
-      <motion.section
-        className="featured-properties section"
-        style={{ scale }}
-      >
-        <div className="container">
-          <motion.div
-            className="section-header"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2>Featured Properties</h2>
-            <p>Explore some of the finest homes currently available in Windsor</p>
-          </motion.div>
-
-          <div className="properties-grid">
-            {featuredProperties.map((property, index) => (
-              <PropertyCard key={property.id} property={property} index={index} />
-            ))}
-          </div>
-
-          <motion.div
-            className="view-all-btn-container"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-            <Link to="/listings" className="btn-primary">
-              View All Listings
-            </Link>
-          </motion.div>
-        </div>
-      </motion.section>
-
       {/* Why Choose Me Section */}
       <section className="why-choose section">
         <div className="container">

@@ -20,7 +20,6 @@ const Footer = () => {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/listings">Listings</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
@@ -29,11 +28,11 @@ const Footer = () => {
           <h4>Contact Info</h4>
           <div className="contact-item">
             <FaPhone />
-            <span>(519) 555-0123</span>
+            <span>(519) 965-0403</span>
           </div>
           <div className="contact-item">
             <FaEnvelope />
-            <span>nitin.arora@homelifegoldstar.com</span>
+            <span>narora.realtor@gmail.com</span>
           </div>
         </div>
 
@@ -41,7 +40,7 @@ const Footer = () => {
           <h4>Follow Me</h4>
           <div className="social-links">
             <motion.a
-              href="https://facebook.com"
+              href="https://facebook.com/nitinarora.realtor"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -50,7 +49,7 @@ const Footer = () => {
               <FaFacebook />
             </motion.a>
             <motion.a
-              href="https://instagram.com"
+              href="https://instagram.com/nitinarora.realtor"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -59,22 +58,13 @@ const Footer = () => {
               <FaInstagram />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/nitinarorarealtor"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
             >
               <FaLinkedin />
-            </motion.a>
-            <motion.a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaTwitter />
             </motion.a>
           </div>
         </div>
